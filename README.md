@@ -8,6 +8,8 @@ O Objetivo principal:
 
 
 -Entender a estrutura e distribuição das variáveis
+1.Algumas variáveis, como bmi, bp e s5, mostram distribuições relativamente simétricas.
+2.Outras, como s1 e s6, têm distribuição mais dispersa.
 
 -Identificar variáveis mais correlacionadas com a progressão da diabetes
 
@@ -33,5 +35,17 @@ O Objetivo principal:
 
 # Conclusão:
 Com esta análise, conclui-se que:
+- bmi e s5  tem uma relação linear forte com target.
+- bp mostra uma relação mais fraca, mas visível.
+- Variáveis como sex e s6 têm pouca influência.
+- bmi, bp e s5 têm correlação positiva moderada com target.
+-s3 tem correlação negativa fraca com target.
+
+Avaliação do modelo:
+-R² = 0.45: o modelo explica aproximadamente 45% da variância da variável dependente: isto, indica uma capacidade baixa de explicação da variabilidade da progressão da doença
+- Erro médio quadrático (MSE) foi relativamente baixo
+- Desempenho razoável para dados médicos com ruído.
+
+NB: Para se melhorar o   modelo, pode se recorrer a mmodelos mais avancados, como a regressão linear explicou apenas cerca de 45% da variância da variável alvo, en aconselhavel aplicar modelos mais avançados de machine learning, que conseguem capturar relações não lineares nos dados.
 
  
